@@ -1,19 +1,10 @@
 import React, { Component } from 'react';
-import './Header.css';
 
-class Header extends Component {
-  constructor(props) {
-    super(props);
+import './styles.css';
 
-    const styleObj = {
-      height: '300px'
-    };
-    this.state = { style: styleObj };
-    
-  }
+class Navbar extends Component {
 
   render() {
-    console.log(this.state);
     return (
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -54,5 +45,5 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Navbar;
 
