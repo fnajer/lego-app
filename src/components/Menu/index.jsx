@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import './styles.css';
 
 class Menu extends Component {
-
   render() {
     return (
       <nav class="nav nav-pills flex-column flex-sm-row">
@@ -18,4 +17,3 @@ class Menu extends Component {
 }
 
 export default Menu;
-
