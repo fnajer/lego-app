@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './styles.css';
 
 import Header from '../Header';
+import Slider from '../Slider';
 
 class App extends Component {
   constructor() {
@@ -15,7 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-
+        <Slider />
       </div>
     );
   }
